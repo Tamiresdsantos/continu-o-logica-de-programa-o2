@@ -1,0 +1,50 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+a{text-decoration: none;
+
+}
+
+contanier {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#apresentation {
+    background-image: url(./backgroud.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+
+}
+
+#apresentation{
+    display: block;
+    width: fit-content;
+    font-size: 5ch;
+    position: relative;
+    color: lavender;
+
+}
+
+#apresentation h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
